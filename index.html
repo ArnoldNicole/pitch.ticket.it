@@ -1576,18 +1576,18 @@
 
         // Start counter animations
         setTimeout(() => {
-          animateCounter("counter1", 1000);
-          animateCounter("counter2", 50000);
-          animateCounter("counter3", 100);
+          animateCounter("counter1", 0);
+          animateCounter("counter2", 0);
+          animateCounter("counter3", 0);
         }, 2000);
 
         // Animate market chart
         const chartBars = document.querySelectorAll(".chart-bar");
         setTimeout(() => {
-          chartBars[0].style.height = "90%";
-          chartBars[1].style.height = "30%";
+          chartBars[0].style.height = "95%";
+          chartBars[1].style.height = "42%";
           chartBars[2].style.height = "25%";
-          chartBars[3].style.height = "20%";
+          chartBars[3].style.height = "15%";
         }, 2500);
 
         // Animation for milestones
